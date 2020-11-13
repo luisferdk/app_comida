@@ -5,6 +5,14 @@
   /* border: 1px solid red; */
 }
 
+body{
+  padding-bottom: 50px;
+}
+
+button:focus{
+  outline: none;
+}
+
 p {
   color: #748a9d;
   margin: 0;
@@ -14,6 +22,9 @@ span {
   color: #a6bcd0;
 }
 
+.btn{
+  border-radius: 100px;
+}
 .fondo-header {
   background: #f0f4f8;
   padding: 20px 0;
@@ -148,6 +159,7 @@ span {
   justify-content: center;
   align-items: center;
   border-radius: 10px;
+  padding: 3px 8px;
 }
 
 .boton-caja button {
@@ -242,6 +254,7 @@ span {
 .nutricion-text {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
 .nutricion-text span {
@@ -303,7 +316,8 @@ span {
 .text-explicacion h4 {
   font-size: 20px;
   color: #7bed8d;
-  margin: 20px 0;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .vegetal-select {
@@ -388,8 +402,7 @@ span {
   width: 100%;
   background: #f0f4f8;
   border-radius: 10px;
-  padding: 0;
-  
+  padding: 15px 0;
   text-align: center;
 
 }
@@ -407,15 +420,15 @@ span {
 }
 
 .entrega-item2{
+  width: 100%;
   margin-top: 10px;
-  width: 0;
-  padding: 0;
-  margin-right:10px ;
-  padding: 5px 5px;
+  margin-right:10px;
+  padding: 5px;
 }
 
 .pago-input input{
   padding: 10px 40px;
+  padding-right: 10px;
 }
 
 .pago-input-item{
@@ -445,6 +458,7 @@ span {
 .metodo-pago-item{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 10px 0;
 
 }
